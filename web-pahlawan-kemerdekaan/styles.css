@@ -128,3 +128,31 @@ h2 {
 .vertical-text p:nth-of-type(2) { animation-timeline: --two; }
 .vertical-text p:nth-of-type(3) { animation-timeline: --three; }
 .vertical-text p:nth-of-type(4) { animation-timeline: --four; }
+  
+/* Audio Player Styles */
+.audio-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ce1126;
+}
+
+.audio-label {
+  margin: 5px 0 0 0;
+  font-size: 0.8rem;
+  color: #ce1126;
+  font-weight: bold;
+}
+
+audio {
+  height: 30px;
+  width: 250px;
+}
